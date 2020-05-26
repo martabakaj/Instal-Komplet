@@ -1,0 +1,91 @@
+#information {
+    width: 100%;
+    background-color: $grey4;
+    color: $white;
+
+
+    .contact {
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        &:hover {
+            background: $blue;
+        }
+
+        &:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        .infog {
+            float: left;
+            color: $green;
+            margin-left: 10px;
+        }
+
+        .infob {
+            float: left;
+            margin-left: 10px;
+        }
+    }
+}
+
+#topnav {
+    background-color: $grey2;
+    height: 120px;
+
+    #logo {
+        float: left;
+        padding: 10px;
+    }
+
+    #menu {
+        width: 100%;
+        padding: 5px;
+        margin-right: 40px;
+        font-size: 18px;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+
+        >ul {
+            float: right;
+            list-style: none;
+            margin: 46px 20px;
+            padding: 0;
+
+            >li {
+                display: inline;
+                margin-right: 25px;
+
+                >ul {
+                    list-style: none;
+                    display: none;
+
+                    .dropdown {}
+                }
+            }
+
+            .topNavButton {
+                padding: 12px 26px;
+                background: transparentize($grey3, $amount: 0.45);
+                box-sizing: border-box;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+            }
+        }
+
+        .dropdown {}
+
+    }
+
+}

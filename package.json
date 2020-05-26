@@ -1,0 +1,33 @@
+{
+  "name": "instal-komplet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martabakaj/Instal-Komplet.git"
+  },
+  "keywords": [
+    "8808"
+  ],
+  "author": "Marta Bakaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martabakaj/Instal-Komplet/issues"
+  },
+  "homepage": "https://github.com/martabakaj/Instal-Komplet#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "g": "^2.0.1"
+  }
+}
