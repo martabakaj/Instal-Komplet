@@ -1,6 +1,35 @@
-.services{
+.services {
+
     margin-top: 5px;
-    text-align: center;
-    font-size: $font-xl;
-       
+
+    .services_title {
+        padding: 0;
+        font-size: $font-xl;
+        text-align: center;
+        clear: both;
+    }
+
+    .box {
+        margin: 40px 160px;
+        padding: 0;
+
+        &:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        .box_pic {
+            margin: 0px;
+            padding:0px;
+         float: left;
+            margin: 0px;
+
+        .txt {
+           font-size: 30px;
+               
+               
+            }
+        }
+    }
 }
