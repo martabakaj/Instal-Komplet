@@ -37,14 +37,19 @@
     background-color: $grey2;
     height: 120px;
 
+    &:after {
+        content: "";
+        clear: both;
+        display: block;
+         }
+
     #logo {
         float: left;
         padding: 10px;
     }
 
     #menu {
-        width: 100%;
-        padding: 5px;
+        float: right;
         margin-right: 40px;
         font-size: 18px;
 
@@ -58,8 +63,7 @@
         }
 
         >ul {
-            float: right;
-            list-style: none;
+                        list-style: none;
             margin: 46px 20px;
             padding: 0;
 
