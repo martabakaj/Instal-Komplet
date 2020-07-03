@@ -45,12 +45,12 @@
 
     #logo {
         float: left;
-        padding: 9git pushpx;
+        margin: 9px;
     }
 
     #menu {
         float: right;
-        margin-right: 40px;
+        margin-right: 9px;
         font-size: 18px;
 
         a {
@@ -63,20 +63,18 @@
         }
 
         >ul {
-                        list-style: none;
-            margin: 46px 20px;
+            list-style: none;
+            margin: 46px 0px;
             padding: 0;
 
             >li {
                 display: inline;
-                margin-right: 25px;
+                margin-left: 25px;
 
                 >ul {
                     list-style: none;
                     display: none;
-
-                    .dropdown {}
-                }
+                              }
             }
 
             .topNavButton {
@@ -87,8 +85,6 @@
                 border-radius: 20px;
             }
         }
-
-        .dropdown {}
 
     }
 

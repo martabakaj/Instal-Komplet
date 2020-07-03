@@ -1,0 +1,79 @@
+.footernav {
+    background-color: $grey4;
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    @media (max-width:800px) {
+        flex-direction: column;
+        #footerlogo{
+            img{width: 50px;}
+            
+        }
+    }
+
+    #footerlogo {
+       flex-grow: 2;
+    }
+
+    .footerSocialMedia{
+        text-align: center;
+    display: inline;
+    flex-grow: 2;
+    
+    img {
+        width: 25px;
+      
+    }
+    
+}
+    .footermenu{
+        flex-grow: 1;
+        font-size: 18px;
+        text-align: right;
+
+        a {
+            text-decoration: none;
+            color: $grey2;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            margin-left: 25px;
+        }
+
+        .topNavButton {
+            padding: 12px 26px;
+            background: transparentize($grey3, $amount: 0.45);
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+        }
+    }
+}
+
+    .prawa {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: $white;
+        clear: both;
+           }
+ 
+}

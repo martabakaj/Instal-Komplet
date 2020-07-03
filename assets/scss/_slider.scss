@@ -2,22 +2,47 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: coral;
-    height: 340px;
+    background-color: $grey2;
+  
     .slider{
        margin: 0;
         padding: 0;
-        height: 338px;
+     
         .single-slide{     
             margin: 0;
             padding:0;
-           .img{
+            
+           img{
                margin: 0;
                padding: 0;
+               display: block;
+            
+               
             
             }
            }
-            
+          }
 
-}
+    .dots{
+        margin: 0;
+    
+        padding: 3px;
+       
+       ul{
+            list-style: none;
+            width:100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+       
+         .dot{
+            background: $blue;
+            border-radius: 50%;
+            display: inline-block;
+            width:20px;
+            height:20px;
+            cursor: pointer;
+        }
+    }
+    }
     }
