@@ -3,46 +3,87 @@
     width: auto;
     margin: 0;
     padding: 10px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
 
-    @media (max-width:800px) {
+    @media (max-width:991px) {
         flex-direction: column;
-        #footerlogo{
-            img{width: 50px;}
-            
+        padding: 6px 0;
+        margin: 0;
+
+        .footermenu {
+            padding: 30px;
+        }
+
+        .prawa {
+            font-size: $font-xxs;
         }
     }
 
-    #footerlogo {
-       flex-grow: 2;
+    @media (max-width:767px) {
+
+        flex-direction: column;
+        padding: 6px 0;
+        margin: 0;
+
+        .footermenu {
+            padding: 30px;
+        }
+
+        .prawa {
+            font-size: $font-xxs;
+        }
     }
 
-    .footerSocialMedia{
-        text-align: center;
+    @media (max-width:520px) {
+
+        flex-direction: column;
+        padding: 6px 0;
+        margin: 0;
+
+        .footermenu {
+            padding: 20px;
+            text-align: center;
+           }
+
+    }
+
+    .prawa {
+        font-size: $font-xxs;
+    }
+}
+
+
+#footerlogo {
+    flex-grow: 2;
+}
+
+.footerSocialMedia {
+    text-align: center;
     display: inline;
     flex-grow: 2;
-    
+
     img {
         width: 25px;
-      
+
     }
-    
+
 }
-    .footermenu{
-        flex-grow: 1;
-        font-size: 18px;
-        text-align: right;
 
-        a {
-            text-decoration: none;
-            color: $grey2;
+.footermenu {
+    flex-grow: 1;
+    font-size: $font-sm;
+    text-align: right;
 
-            &:hover {
-                color: $blue;
-            }
+    a {
+        text-decoration: none;
+        color: $grey2;
+
+        &:hover {
+            color: $blue;
         }
+    }
 
 
     ul {
@@ -63,17 +104,23 @@
             box-sizing: border-box;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 20px;
+
+            @media (max-width:520px){
+                background-color: $blue;
+                margin: 0;
+                padding:2px;
+                }
         }
     }
 }
 
-    .prawa {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        color: $white;
-        clear: both;
-           }
- 
+.prawa {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: $white;
+    clear: both;
+    font-size: $font-xs;
 }
+
