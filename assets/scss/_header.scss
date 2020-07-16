@@ -3,7 +3,7 @@
     background-color: $grey4;
     color: $white;
 
-    .contact {
+       .contact {
         width: 100%;
         list-style: none;
         margin: 0;
@@ -51,6 +51,8 @@
 #topnav {
     background-color: $grey2;
     height: 120px;
+    
+    
 
     &:after {
         content: "";
@@ -117,7 +119,6 @@
 
                 .topNavButton {
                     display: block;
-                    background-color: $blue;
                     margin: 0;
                     padding: 2px;
                     margin-top: 15px;
@@ -127,4 +128,6 @@
 
         }
     }
+
+    
 }

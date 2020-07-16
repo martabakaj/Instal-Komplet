@@ -8,22 +8,22 @@
     align-items: center;
 
     @media (max-width:991px) {
-        flex-direction: column;
+
         padding: 6px 0;
         margin: 0;
 
         .footermenu {
-            padding: 30px;
+            padding: 9px;
         }
 
         .prawa {
+            margin-top: 20px;
             font-size: $font-xxs;
         }
     }
 
     @media (max-width:767px) {
 
-        flex-direction: column;
         padding: 6px 0;
         margin: 0;
 
@@ -45,8 +45,7 @@
         .footermenu {
             padding: 20px;
             text-align: center;
-           }
-
+        }
     }
 
     .prawa {
@@ -54,9 +53,9 @@
     }
 }
 
-
 #footerlogo {
     flex-grow: 2;
+    margin: 9px;
 }
 
 .footerSocialMedia {
@@ -66,9 +65,7 @@
 
     img {
         width: 25px;
-
     }
-
 }
 
 .footermenu {
@@ -84,7 +81,6 @@
             color: $blue;
         }
     }
-
 
     ul {
         margin: 0;
@@ -105,13 +101,13 @@
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 20px;
 
-            @media (max-width:520px){
+            @media (max-width:520px) {
                 background-color: $blue;
                 margin: 0;
-                padding:2px;
+                padding: 2px;
                 display: block;
                 margin-top: 25px;
-                }
+            }
         }
     }
 }
@@ -125,4 +121,3 @@
     clear: both;
     font-size: $font-xs;
 }
-

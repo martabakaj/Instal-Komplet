@@ -83,7 +83,6 @@ body {
           margin: 20px; }
           #topnav #menu ul .topNavButton {
             display: block;
-            background-color: #156ED3;
             margin: 0;
             padding: 2px;
             margin-top: 15px;
@@ -183,16 +182,15 @@ body {
   align-items: center; }
   @media (max-width: 991px) {
     .footernav {
-      flex-direction: column;
       padding: 6px 0;
       margin: 0; }
       .footernav .footermenu {
-        padding: 30px; }
+        padding: 9px; }
       .footernav .prawa {
+        margin-top: 20px;
         font-size: 12px; } }
   @media (max-width: 767px) {
     .footernav {
-      flex-direction: column;
       padding: 6px 0;
       margin: 0; }
       .footernav .footermenu {
@@ -211,7 +209,8 @@ body {
     font-size: 12px; }
 
 #footerlogo {
-  flex-grow: 2; }
+  flex-grow: 2;
+  margin: 9px; }
 
 .footerSocialMedia {
   text-align: center;
