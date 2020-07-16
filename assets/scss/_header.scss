@@ -3,7 +3,7 @@
     background-color: $grey4;
     color: $white;
 
-       .contact {
+    .contact {
         width: 100%;
         list-style: none;
         margin: 0;
@@ -50,9 +50,9 @@
 
 #topnav {
     background-color: $grey2;
-    height: 120px;
-    
-    
+    height: auto;
+
+
 
     &:after {
         content: "";
@@ -63,6 +63,11 @@
     #logo {
         float: left;
         margin: 9px;
+
+        img {
+            width: 331px;
+            height: 97px;
+        }
     }
 
     #menu {
@@ -110,24 +115,41 @@
         padding: 6px 0;
         margin: 0;
 
+        #logo {
+            float: none;
+
+            img {
+                width: auto;
+                height: 97px;
+            }
+
+        }
+
+        #menu {
+            float: none;
+        }
+
         #menu {
             text-align: center;
 
+
             ul {
                 margin: 20px;
+                float: none;
 
 
                 .topNavButton {
-                    display: block;
+                    display: inline-block;
                     margin: 0;
                     padding: 2px;
                     margin-top: 15px;
                     text-align: center;
+
                 }
             }
 
         }
     }
 
-    
+
 }

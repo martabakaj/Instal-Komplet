@@ -39,7 +39,7 @@ body {
 
 #topnav {
   background-color: #C4C4C4;
-  height: 120px; }
+  height: auto; }
   #topnav:after {
     content: "";
     clear: both;
@@ -47,6 +47,9 @@ body {
   #topnav #logo {
     float: left;
     margin: 9px; }
+    #topnav #logo img {
+      width: 331px;
+      height: 97px; }
   #topnav #menu {
     float: right;
     margin-right: 9px;
@@ -77,12 +80,20 @@ body {
       flex-direction: column;
       padding: 6px 0;
       margin: 0; }
+      #topnav #logo {
+        float: none; }
+        #topnav #logo img {
+          width: auto;
+          height: 97px; }
+      #topnav #menu {
+        float: none; }
       #topnav #menu {
         text-align: center; }
         #topnav #menu ul {
-          margin: 20px; }
+          margin: 20px;
+          float: none; }
           #topnav #menu ul .topNavButton {
-            display: block;
+            display: inline-block;
             margin: 0;
             padding: 2px;
             margin-top: 15px;
@@ -161,7 +172,9 @@ body {
         padding: 0;
         text-align: center; }
         .services .box .box_pic {
-          margin: 0px; }
+          float: none;
+          margin: 0px;
+          display: inline-block; }
           .services .box .box_pic img {
             margin: 0;
             padding: 0; }
@@ -204,13 +217,21 @@ body {
       margin: 0; }
       .footernav .footermenu {
         padding: 20px;
-        text-align: center; } }
+        text-align: center; }
+      .footernav #footerlogo {
+        margin: 0; }
+        .footernav #footerlogo img {
+          width: auto;
+          height: 97px; } }
   .footernav .prawa {
     font-size: 12px; }
 
 #footerlogo {
   flex-grow: 2;
   margin: 9px; }
+  #footerlogo img {
+    width: 331px;
+    height: 97px; }
 
 .footerSocialMedia {
   text-align: center;

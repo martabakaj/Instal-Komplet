@@ -45,26 +45,25 @@
         flex-direction: column;
         margin: 0;
         padding: 0px;
-        
 
-.services_title{
-    margin: 15px;
-    font-size: $font-lg ;
-    
-}
+        .services_title {
+            margin: 15px;
+            font-size: $font-lg;
+        }
+
         .box {
             margin: 0;
             padding: 0;
             text-align: center;
 
             .box_pic {
-              
+                float: none;
                 margin: 0px;
+                display: inline-block;
 
                 img {
                     margin: 0;
                     padding: 0;
-                    
                 }
             }
 
@@ -74,8 +73,6 @@
                 font-size: $font-sm;
             }
         }
-
-
 
         .text_bottom {
             display: none;
