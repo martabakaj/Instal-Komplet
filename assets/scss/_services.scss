@@ -23,7 +23,6 @@
             margin: 0px;
             padding: 0px;
             float: left;
-            margin: 0px;
             margin-right: 80px;
             border: 1px solid #000000;
             box-sizing: border-box;
@@ -39,5 +38,47 @@
     .text_bottom {
         margin: 0 0 20px 160px;
         font-size: $font-md;
-          }
+    }
+
+    @media (max-width: 520px) {
+
+        flex-direction: column;
+        margin: 0;
+        padding: 0px;
+        
+
+.services_title{
+    margin: 15px;
+    font-size: $font-lg ;
+    
+}
+        .box {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+            .box_pic {
+              
+                margin: 0px;
+
+                img {
+                    margin: 0;
+                    padding: 0;
+                    
+                }
+            }
+
+            .txt {
+                padding: 0;
+                margin: 30px 0px 20px;
+                font-size: $font-sm;
+            }
+        }
+
+
+
+        .text_bottom {
+            display: none;
+        }
+    }
 }

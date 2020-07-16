@@ -19,13 +19,23 @@ body {
       content: "";
       clear: both;
       display: block; }
-    #information .contact .infog {
+    #information .contact .info {
       float: left;
       color: #ADE4EC;
       margin-left: 10px; }
-    #information .contact .infob {
+    #information .contact .infot {
       float: left;
       margin-left: 10px; }
+    #information .contact .infom {
+      float: left;
+      margin-left: 10px; }
+  @media (max-width: 520px) {
+    #information {
+      flex-direction: column;
+      padding: 6px 0;
+      margin-top: 0; }
+      #information .info {
+        margin-bottom: 3px; } }
 
 #topnav {
   background-color: #C4C4C4;
@@ -62,6 +72,22 @@ body {
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px; }
+  @media (max-width: 520px) {
+    #topnav {
+      flex-direction: column;
+      padding: 6px 0;
+      margin: 0; }
+      #topnav #menu {
+        text-align: center; }
+        #topnav #menu ul {
+          margin: 20px; }
+          #topnav #menu ul .topNavButton {
+            display: block;
+            background-color: #156ED3;
+            margin: 0;
+            padding: 2px;
+            margin-top: 15px;
+            text-align: center; } }
 
 .carousel-stage {
   list-style: none;
@@ -113,7 +139,6 @@ body {
       margin: 0px;
       padding: 0px;
       float: left;
-      margin: 0px;
       margin-right: 80px;
       border: 1px solid #000000;
       box-sizing: border-box;
@@ -124,6 +149,29 @@ body {
   .services .text_bottom {
     margin: 0 0 20px 160px;
     font-size: 28px; }
+  @media (max-width: 520px) {
+    .services {
+      flex-direction: column;
+      margin: 0;
+      padding: 0px; }
+      .services .services_title {
+        margin: 15px;
+        font-size: 30px; }
+      .services .box {
+        margin: 0;
+        padding: 0;
+        text-align: center; }
+        .services .box .box_pic {
+          margin: 0px; }
+          .services .box .box_pic img {
+            margin: 0;
+            padding: 0; }
+        .services .box .txt {
+          padding: 0;
+          margin: 30px 0px 20px;
+          font-size: 18px; }
+      .services .text_bottom {
+        display: none; } }
 
 .footernav {
   background-color: #4E4E4E;
@@ -202,7 +250,7 @@ body {
           margin: 0;
           padding: 2px;
           display: block;
-          margin-top: 30px; } }
+          margin-top: 25px; } }
 
 .prawa {
   width: 100%;

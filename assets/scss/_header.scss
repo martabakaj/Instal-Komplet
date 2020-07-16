@@ -3,7 +3,6 @@
     background-color: $grey4;
     color: $white;
 
-
     .contact {
         width: 100%;
         list-style: none;
@@ -20,13 +19,18 @@
             display: block;
         }
 
-        .infog {
+        .info {
             float: left;
             color: $green;
             margin-left: 10px;
         }
 
-        .infob {
+        .infot {
+            float: left;
+            margin-left: 10px;
+        }
+
+        .infom {
             float: left;
             margin-left: 10px;
         }
@@ -36,13 +40,11 @@
 
         flex-direction: column;
         padding: 6px 0;
-        margin: 0;
+        margin-top: 0;
 
-        .footermenu {
-            padding: 20px;
-            text-align: center;
-           }
-
+        .info {
+            margin-bottom: 3px;
+        }
     }
 }
 
@@ -54,7 +56,7 @@
         content: "";
         clear: both;
         display: block;
-         }
+    }
 
     #logo {
         float: left;
@@ -87,7 +89,7 @@
                 >ul {
                     list-style: none;
                     display: none;
-                              }
+                }
             }
 
             .topNavButton {
@@ -98,7 +100,31 @@
                 border-radius: 20px;
             }
         }
-
     }
 
+    @media (max-width:520px) {
+
+        flex-direction: column;
+        padding: 6px 0;
+        margin: 0;
+
+        #menu {
+            text-align: center;
+
+            ul {
+                margin: 20px;
+
+
+                .topNavButton {
+                    display: block;
+                    background-color: $blue;
+                    margin: 0;
+                    padding: 2px;
+                    margin-top: 15px;
+                    text-align: center;
+                }
+            }
+
+        }
+    }
 }
