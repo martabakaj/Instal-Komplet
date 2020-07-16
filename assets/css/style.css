@@ -200,7 +200,9 @@ body {
         .footermenu ul .topNavButton {
           background-color: #156ED3;
           margin: 0;
-          padding: 2px; } }
+          padding: 2px;
+          display: block;
+          margin-top: 30px; } }
 
 .prawa {
   width: 100%;

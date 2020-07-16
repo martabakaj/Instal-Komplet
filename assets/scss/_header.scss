@@ -31,6 +31,19 @@
             margin-left: 10px;
         }
     }
+
+    @media (max-width:520px) {
+
+        flex-direction: column;
+        padding: 6px 0;
+        margin: 0;
+
+        .footermenu {
+            padding: 20px;
+            text-align: center;
+           }
+
+    }
 }
 
 #topnav {
