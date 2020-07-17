@@ -132,7 +132,7 @@
             text-align: center;
 
             ul {
-                margin: 20px;
+                margin: 0px 20px 15px 20px;
                 float: none;
 
                 .topNavButton {
@@ -142,6 +142,33 @@
                     margin-top: 15px;
                     text-align: center;
                 }
+            }
+        }
+    }
+
+
+    @media (max-width:813px) {
+
+        flex-direction: column;
+        padding: 6px 0;
+        margin: 0;
+
+        #logo {
+            float: none;
+            margin: 0px;
+
+            img {
+                width: auto;
+                height: 97px;
+                margin-left: 3px;
+            }
+        }
+
+        #menu {
+            padding-bottom: 30px;
+
+            ul {
+                margin: 0px 20px 15px 20px;
             }
         }
     }
