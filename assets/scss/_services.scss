@@ -1,6 +1,6 @@
 .services {
 
-    margin-top: 5px;
+    margin-top: 1%;
 
     .services_title {
         padding: 0;
@@ -10,8 +10,9 @@
     }
 
     .box {
-        margin: 40px 160px;
+        margin: 5% 15%;
         padding: 0;
+        align-items: baseline;
 
         &:after {
             content: "";
@@ -23,20 +24,21 @@
             margin: 0px;
             padding: 0px;
             float: left;
-            margin-right: 80px;
+            margin-right: 10%;
             border: 1px solid #000000;
             box-sizing: border-box;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
 
         .txt {
-            font-size: $font-lg;
-            padding-top: 55px;
+
+            font-size: $font-md;
+            margin-top: 10.5%;
         }
     }
 
     .text_bottom {
-        margin: 0 0 20px 160px;
+        margin: 0 2% 2.5% 15%;
         font-size: $font-md;
     }
 
@@ -47,8 +49,8 @@
         padding: 0px;
 
         .services_title {
-            margin: 15px;
             font-size: $font-lg;
+            margin-bottom: 2.5%;
         }
 
         .box {
@@ -69,7 +71,7 @@
 
             .txt {
                 padding: 0;
-                margin: 30px 0px 20px;
+                margin: 2000px 0px 20px;
                 font-size: $font-sm;
             }
         }
@@ -84,31 +86,30 @@
 
     flex-direction: column;
     margin: 0;
-    padding: 0px;
+    padding: 0;
 
-    .box {
-        margin: 0;
-        padding: 0;
-        text-align: center;
+    .services {
+        .box {
+            margin: 0;
+            padding: 0;
+            text-align: center;
 
-        .box_pic {
-            float: none;
-            margin: 0px;
-            display: inline-block;
+            .box_pic {
+                float: none;
+                margin: 0px;
+                display: inline-block;
 
-            img {
-                margin: 0;
-                padding: 0;
+                img {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+            .txt {
+                padding: 0px;
+                margin: 30px 0px 20px;
+                font-size: $font-sm;
             }
         }
-
-     .txt {
-            padding: 0px;
-            margin: 30px 0px 20px;
-            text-align: center;
-            font-size: $font-sm;
-        }
     }
-
-    
 }
