@@ -78,6 +78,7 @@ body {
   @media (max-width: 520px) {
     #topnav {
       flex-direction: column;
+      text-align: center;
       padding: 6px 0;
       margin: 0; }
       #topnav #logo {
@@ -159,7 +160,8 @@ body {
   .services .box {
     margin: 5% 15%;
     padding: 0;
-    align-items: baseline; }
+    display: flex;
+    align-items: center; }
     .services .box:after {
       content: "";
       clear: both;
@@ -173,14 +175,12 @@ body {
       box-sizing: border-box;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
     .services .box .txt {
-      font-size: 28px;
-      margin-top: 10.5%; }
+      font-size: 28px; }
   .services .text_bottom {
-    margin: 0 2% 2.5% 15%;
+    margin: 0 2% 2.5% 5%;
     font-size: 28px; }
   @media (max-width: 520px) {
     .services {
-      flex-direction: column;
       margin: 0;
       padding: 0px; }
       .services .services_title {
@@ -189,18 +189,20 @@ body {
       .services .box {
         margin: 0;
         padding: 0;
-        text-align: center; }
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
         .services .box .box_pic {
           float: none;
-          margin: 0px;
-          display: inline-block; }
+          margin: 0px; }
           .services .box .box_pic img {
             margin: 0;
             padding: 0; }
         .services .box .txt {
           padding: 0;
           margin: 2000px 0px 20px;
-          font-size: 18px; }
+          font-size: 18px;
+          text-align: center; }
       .services .text_bottom {
         display: none; } }
 
@@ -221,8 +223,10 @@ body {
         padding: 0; }
     .services .box .txt {
       padding: 0px;
-      margin: 30px 0px 20px;
-      font-size: 18px; } }
+      margin: 3% 0 2% 3%;
+      font-size: 18px; }
+  .services .text_bottom {
+    font-size: 18px; } }
 
 .footernav {
   background-color: #4E4E4E;
