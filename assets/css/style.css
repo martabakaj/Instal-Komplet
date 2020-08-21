@@ -324,4 +324,15 @@ body {
   clear: both;
   font-size: 16px; }
 
+.kontakt .x {
+  color: #156ED3;
+  font-weight: bold; }
+
+.kontakt .damian {
+  font-weight: bold;
+  font-size: 26px; }
+
+.kontakt .text_bottom {
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
