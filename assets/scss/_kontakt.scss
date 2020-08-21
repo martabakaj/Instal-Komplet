@@ -1,13 +1,15 @@
-.kontakt .x {
-    color: $blue;
-    font-weight: bold;
-}
+.kontakt {
+    .x {
+        color: $blue;
+        font-weight: bold;
+    }
 
-.kontakt .damian {
-    font-weight: bold;
-    font-size: $font-m;
-}
+    .damian {
+        font-weight: bold;
+        font-size: $font-m;
+    }
 
-.kontakt .text_bottom {
-    text-align: center;
+    .text_bottom {
+        text-align: center;
+    }
 }
